@@ -28,7 +28,7 @@ export const TodoList = () => {
       <button onClick={addTodoItem}>Add</button>
       <ul>
         {todos.map((todo) => (
-          <li onClick={() => navigate(`edit/${todo.id}`)} key={todo.id}>{todo.text}</li>
+          <li style={{textDecoration: todo.completed ? 'line-through' : ''}} onClick={() => navigate(`/edit/${todo.id}`)} key={todo.id}>{todo.text}</li>
         ))}
       </ul>
     </>

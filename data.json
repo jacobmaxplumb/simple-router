@@ -2,12 +2,12 @@
   "todos": [
     {
       "id": "f848",
-      "text": "item 1",
+      "text": "Clean Car",
       "completed": false
     },
     {
       "id": "857f",
-      "text": "item 2",
+      "text": "Get Food",
       "completed": false
     }
   ]
